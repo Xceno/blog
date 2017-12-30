@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+$textColor: rgb(64, 61, 52);
+$linkColor: rgb(204, 178, 133);
+$highlightColor: rgb(255, 0, 55);
+$highlightHue: 347;
+$backgroundColor: rgb(252, 251, 247);
+$fontSize: 1.01em;
+$fontFamily: "Nunito", system, sans-serif;
+$headerFontFamily: "Electrolize", "Nunito", system, sans-serif;
+$code_fontFamily: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+$themeChange_TransitionTime: 1.75s;
+
+@mixin gridEffect() {
+  &:before,
+  &:after {
+    background-image: url("./bg2.gif");
+    content: "";
+    display: block;
+    flex: 1;
+    background-position-y: center;
+  }
+
+  &:before {
+    background-position-x: inherit;
+  }
+
+  &:after {
+    background-position-x: right;
+  }
+}

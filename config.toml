@@ -1,0 +1,16 @@
+blogTitle = "Xceno.io"
+domain = "https://xceno.io"
+linkPrefix = "/"
+
+noProductionJavascript = true
+
+favicon = "/favicon.ico"
+
+authorShortName = "Xceno"
+authorName = "Xceno"
+authorEmail = "rob@xceno.io"
+authorTwitter = ""
+authorURL = "https://xceno.io"
+authorImage = ""
+authorIcon = ""
+authorBlurb = "Hi, I'm Xceno. I code all kinds of stuff, make weird music and other strange things."

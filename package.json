@@ -1,0 +1,67 @@
+{
+  "name": "xceno-io",
+  "description": "Xceno.io website",
+  "version": "1.0.0",
+  "author": "Robert Knolmar <rob@xceno.io>",
+  "license": "MIT",
+  "homepage": "https://xceno.io",
+  "main": "n/a",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xceno/blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "tslint-config-prettier-check ./tslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git-cz",
+    "release": "standard-version",
+    "make-post": "babel-node src/scripts/make-post.js"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-helmet": "^5.0.3",
+    "@types/react-router": "^4.0.20",
+    "@types/react-router-dom": "^4.2.3",
+    "gatsby": "^1.9.149",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-netlify": "^1.0.12",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-typescript": "^1.4.12",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-remark-prismjs": "^1.2.11",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.26",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "@types/webpack": "^3.0.13",
+    "app-module-path": "^2.2.0",
+    "babel-cli": "^6.26.0",
+    "babylon": "^7.0.0-beta.34",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "front-matter": "^2.3.0",
+    "gatsby-plugin-remove-trailing-slashes": "^1.0.3",
+    "moment": "^2.20.1",
+    "prettier": "^1.9.2",
+    "slugify": "^1.2.8",
+    "standard-version": "^4.2.0",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.5.0",
+    "tslint-react": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
