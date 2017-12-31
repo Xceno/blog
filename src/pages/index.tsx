@@ -1,5 +1,6 @@
 import Link from "gatsby-link";
 import * as React from "react";
+import { shortDate } from "../utils/shortDate";
 
 interface BlogPost {
   id: string;
@@ -56,7 +57,7 @@ const BlogPostIndex = ({ data }: { data: BlogPostList }) => (
           }
         </h2>
         <time style={{ color: "#888" }} dateTime={node.frontmatter.date}>
-          {node.frontmatter.date}
+          {shortDate(new Date(node.frontmatter.date))}
         </time>
         <p className="article-excerpt">
           {node.excerpt} {readMoreLink(node.fields.slug)}
@@ -85,7 +86,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "YYYY/MM/DD")
+            date
             tags
           }
           fields {
