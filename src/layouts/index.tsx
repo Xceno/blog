@@ -21,6 +21,13 @@ const toggleMenuClass = () => {
   }
 };
 
+const forceCloseMenu = () => {
+  const body = document.querySelector("body");
+  if (body && body.classList.contains("show-menu")) {
+    body.classList.remove("show-menu");
+  }
+};
+
 const toggleTheme = (e: Event & any) => {
   if (e) {
     e.preventDefault();
@@ -43,7 +50,9 @@ const pageHeader = () => (
             <li key={i}>
               {
                 // @ts-ignore
-                <Link to={x.uri}>{x.title}</Link>
+                <Link to={x.uri} onClick={forceCloseMenu}>
+                  {x.title}
+                </Link>
               }
             </li>
           ))}
