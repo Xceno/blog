@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/xceno/blog/compare/v1.1.0...v1.1.1) (2018-01-04)
+
+
+### Bug Fixes
+
+* **Mobile:** Readability and scaling on mobile devices ([ff17c80](https://github.com/xceno/blog/commit/ff17c80))
+* **Navigation:** Broken link to GitHub profile ([452e593](https://github.com/xceno/blog/commit/452e593))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/xceno/blog/compare/v1.0.1...v1.1.0) (2018-01-02)
 
