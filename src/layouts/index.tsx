@@ -10,7 +10,7 @@ import * as wtfpl from "./wtfpl.svg";
 
 const headerLinks = [{ title: "Home", uri: "/" }, { title: "About", uri: "/about" }];
 const socialLinks = [
-  { title: "GitHub", uri: "https://github.com/users/xceno", icon: "icon-github" },
+  { title: "GitHub", uri: "https://github.com/xceno", icon: "icon-github" },
   { title: "StackOverflow", uri: "https://stackoverflow.com/users/932315/xceno?tab=profile", icon: "icon-stackoverflow" }
 ];
 
