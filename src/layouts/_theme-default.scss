@@ -108,8 +108,7 @@ body {
   clear: both;
   float: none;
 
-  &:before,
-  &:after {
+  &:before {
     animation: 0.75s expandCorner;
     animation-timing-function: cubic-bezier(0.27, 0.51, 0.04, 0.98);
 
@@ -156,4 +155,77 @@ blockquote {
 
 a.wtfpl-link {
   color: #ded8c6;
+}
+
+@media (max-width: 45em) and (min-width: 0) {
+  .main_wrapper--grid-effect {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .content-wrapper {
+    width: 100vw;
+  }
+
+  .article-closed_item {
+    > h2 {
+      width: 90vw;
+      margin: 0 auto 20px;
+      padding: 0;
+      font-size: 1.5rem;
+    }
+
+    .article-excerpt {
+      padding: 10px 0;
+    }
+
+    .article-tags {
+      .tag {
+        padding: 3px 8px;
+        margin: 4px 5px;
+      }
+    }
+
+    &:after {
+      margin-top: 50px;
+    }
+  }
+
+  .article-open_item {
+    width: auto;
+    padding: 0;
+    margin: 0;
+
+    &:before {
+      top: -20px;
+    }
+
+    > h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      line-height: 1.4em;
+    }
+
+    .post-date {
+      position: relative;
+      transform: none;
+      top: auto;
+      left: auto;
+      right: auto;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .post-header {
+      margin-top: 50px;
+    }
+  }
+
+  .senseless-footer {
+    padding: 0;
+  }
 }

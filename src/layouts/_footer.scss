@@ -94,3 +94,18 @@ a.wtfpl-link {
     float: left;
   }
 }
+
+@media (max-width: 45em) and (min-width: 0) {
+  .footer_block {
+    flex-flow: column;
+    padding: 0 5%;
+
+    h6 {
+      margin-bottom: 12px;
+    }
+  }
+
+  .footer_block-item {
+    padding: 15px 0;
+  }
+}
