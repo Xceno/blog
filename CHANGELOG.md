@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/xceno/blog/compare/v1.1.1...v1.2.0) (2018-01-09)
+
+
+### Bug Fixes
+
+* Move robots.txt to correct location ([1a4f07d](https://github.com/xceno/blog/commit/1a4f07d))
+
+
+### Features
+
+* Sitemap support ([c425ccb](https://github.com/xceno/blog/commit/c425ccb))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/xceno/blog/compare/v1.1.0...v1.1.1) (2018-01-04)
 
