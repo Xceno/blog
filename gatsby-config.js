@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Xceno.io`
+    title: `Xceno.io`,
+    siteUrl: "https://www.xceno.io"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,6 +34,28 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-remove-trailing-slashes`
+    `gatsby-plugin-remove-trailing-slashes`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage(filter: {path: {glob: "/**?[!scripts]**" }}) {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    }
   ]
 };
