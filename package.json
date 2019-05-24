@@ -24,6 +24,7 @@
     "@reach/router": "1.1.1",
     "gatsby": "2.7.1",
     "gatsby-link": "2.1.1",
+    "gatsby-plugin-feed": "^2.2.1",
     "gatsby-plugin-netlify": "2.0.17",
     "gatsby-plugin-react-helmet": "3.0.12",
     "gatsby-plugin-remove-trailing-slashes": "2.0.11",
