@@ -1,6 +1,25 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.0.0](https://github.com/xceno/blog/compare/v1.2.1...v2.0.0) (2019-05-24)
+
+
+### Features
+
+* Finally add an RSS feed ([26a7b52](https://github.com/xceno/blog/commit/26a7b52))
+
+
+### refactor
+
+* Upgrade to gatsby 2 and cleanup ([a05774c](https://github.com/xceno/blog/commit/a05774c))
+
+
+### BREAKING CHANGES
+
+* Gatsby 2 breaks almost everything
+
+
 
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/xceno/blog/compare/v1.2.0...v1.2.1) (2018-04-09)
