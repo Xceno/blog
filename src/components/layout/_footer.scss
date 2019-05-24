@@ -26,6 +26,18 @@ $footerTextColor: #dccab3;
     max-width: 1050px;
     margin: 0 auto;
 
+    >ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      width: auto;
+      list-style: none;
+
+      >li {
+        display: inline-block;
+      }
+    }
+
     a {
       text-decoration: none;
       color: $footerTextColor;
@@ -51,22 +63,26 @@ a.wtfpl-link {
   .dot--animated {
     animation: pulsate 9s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
   }
+
   .dot--animated:nth-child(1) {
     animation-delay: 0s;
   }
+
   .dot--animated:nth-child(2) {
     animation-delay: 2s;
   }
+
   .dot--animated:nth-child(3) {
     animation-delay: 4s;
   }
+
   .dot--animated:nth-child(4) {
     animation-delay: 6s;
   }
 }
 
 .post_list {
-  + .senseless-footer {
+  +.senseless-footer {
     text-align: center;
   }
 }
@@ -75,12 +91,15 @@ a.wtfpl-link {
   0% {
     fill: #f50c35;
   }
+
   33% {
     fill: #9c011c;
   }
+
   66% {
     fill: #6b0517;
   }
+
   100% {
     fill: #520000;
   }

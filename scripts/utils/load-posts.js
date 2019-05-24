@@ -1,7 +1,7 @@
+import frontMatter from "front-matter";
 import fs from "fs";
 import path from "path";
 
-import frontMatter from "front-matter";
 // // import markdownIt from "markdown-it";
 
 // // const md = markdownIt({
@@ -17,7 +17,7 @@ export default function loadPosts(providedOptions) {
   const limit = options.limit || Infinity;
   // // const markdown = typeof options.markdown === "undefined" ? true : options.markdown;
 
-  const postsPath = path.join(__dirname, "../../pages/posts");
+  const postsPath = path.join(__dirname, "../../src/pages/posts");
   const postFiles = fs.readdirSync(postsPath);
 
   return (postFiles || [])

@@ -1,11 +1,9 @@
-import "./utils/setup-module-path";
-
 import fs from "fs";
 import moment from "moment";
 import path from "path";
-import slugify from "slugify";
-
 import loadPosts from "scripts/utils/load-posts";
+import slugify from "slugify";
+import "./utils/setup-module-path";
 
 function fixForYaml(title) {
   if (title.indexOf(":") !== -1) {
@@ -43,7 +41,7 @@ const newContents = template
   .replace("PREVIOUS", previousPath || "");
 
 const filePathDate = moment(now).format("YYYY-MM-DD");
-const newFilePath = path.join(__dirname, `../pages/posts/${filePathDate}-${titleSlug}.md`);
+const newFilePath = path.join(__dirname, `../src/pages/posts/${filePathDate}-${titleSlug}.md`);
 
 console.log("WRITING POST", newFilePath);
 fs.writeFileSync(newFilePath, newContents);

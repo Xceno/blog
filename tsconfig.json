@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "sourceMap": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -14,7 +14,7 @@
     "jsx": "react",
     "lib": ["dom", "es2015", "es2017"]
   },
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "scripts", "scripts"],
   "atom": {
     "rewriteTsconfig": false
   }

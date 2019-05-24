@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Xceno.io`,
-    siteUrl: "https://www.xceno.io"
+    siteUrl: "https://www.xceno.io",
+    description: "Adventures in software and how to survive them.",
+    language: "en"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,12 +27,6 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography.js`
-    //   }
-    // },
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-netlify`,
