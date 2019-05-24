@@ -1,3 +1,0 @@
-[submodule "src/pages/posts"]
-	path = src/pages/posts
-	url = https://gitlab.com/Xceno/blog-posts.git
