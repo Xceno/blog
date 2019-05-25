@@ -20,6 +20,11 @@ const socialLinks = [
     title: "StackOverflow",
     uri: "https://stackoverflow.com/users/932315/xceno?tab=profile",
     icon: "icon-stackoverflow"
+  },
+  {
+    title: "RSS",
+    uri: "/rss.xml",
+    icon: "icon-rss"
   }
 ].map(x => (
   <li key={x.title}>
