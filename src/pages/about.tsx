@@ -20,11 +20,6 @@ const AboutPage = () => (
 
           <p>When I don't code, I make weird music, build strange things or paint.</p>
 
-          <p>
-            Oh and I'm a huge fan of all things cyberpunk and sci-fi. Go fetch yourself a nice bowl
-            of Ramen and watch Blade Runner, or enjoy some fine Dune audiobooks. Seriously :)
-          </p>
-
           <h2>Location</h2>
           <p>
             I'm currently based in Germany.
