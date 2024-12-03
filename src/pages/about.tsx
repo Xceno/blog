@@ -12,7 +12,7 @@ const AboutPage = () => (
       <div style={{ float: "left", width: "70%" }}>
         <div>
           <p>
-            Hi, I'm Robert!
+            Hi, I'm Ray!
             <br />
             For whatever reason, I go under the name of Xceno since I first dialed into the web.
             <br />I started out as automation engineer but switched to full-time coding around 2010.
@@ -25,7 +25,7 @@ const AboutPage = () => (
             I'm currently based in Germany.
             <br />
             If you want to get in touch, just drop me a line at{" "}
-            <a href="mailto:rob@xceno.io">rob@xceno.io</a>.
+            <a href="mailto:ray@xceno.io">rob@xceno.io</a>.
           </p>
         </div>
       </div>
