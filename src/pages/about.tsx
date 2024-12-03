@@ -18,7 +18,8 @@ const AboutPage = () => (
             <br />I started out as automation engineer but switched to full-time coding around 2010.
           </p>
 
-          <p>When I don't code, I make weird music, build strange things or paint.</p>
+          <p>When I don't code, I make weird music, build strange things or do other artsy stuff.</p>
+          <p>Check out my band <a href="https://www.final-faith.com/">Final Faith</a>, or listen to my <a href="https://xceno.bandcamp.com/">solo stuff</a>.</p>
 
           <h2>Location</h2>
           <p>
