@@ -25,7 +25,7 @@ const AboutPage = () => (
             I'm currently based in Germany.
             <br />
             If you want to get in touch, just drop me a line at{" "}
-            <a href="mailto:ray@xceno.io">rob@xceno.io</a>.
+            <a href="mailto:ray@xceno.io">ray@xceno.io</a>.
           </p>
         </div>
       </div>
