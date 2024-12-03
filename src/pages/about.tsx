@@ -21,6 +21,8 @@ const AboutPage = () => (
           <p>When I don't code, I make weird music, build strange things or do other artsy stuff.</p>
           <p>Check out my band <a href="https://www.final-faith.com/">Final Faith</a>, or listen to my <a href="https://xceno.bandcamp.com/">solo stuff</a>.</p>
 
+          <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=94135464/size=large/bgcol=181a1b/linkcol=840d3a/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://xceno.bandcamp.com/track/silence">Silence by xceno</a></iframe>
+
           <h2>Location</h2>
           <p>
             I'm currently based in Germany.
