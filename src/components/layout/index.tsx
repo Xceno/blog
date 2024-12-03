@@ -85,7 +85,7 @@ const pageFooter = (() => (
   <footer id="page-footer">
     <div className="footer_block info">
       <div className="footer_block-item copyright">
-        <h6>Copyright {new Date().getFullYear()}, Robert Knolmar</h6>
+        <h6>Copyright {new Date().getFullYear()}</h6>
         <a href="http://www.wtfpl.net" className="wtfpl-link" title="WTFPL License">
           <i className="icon-wtfpl" />
         </a>
